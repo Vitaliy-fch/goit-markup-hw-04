@@ -76,6 +76,14 @@ img {
 
 .solutions {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/fone-main/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
 }
 .solutions-title {
   color: #ffffff;
@@ -151,6 +159,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 /* Our Portfolio */
@@ -295,6 +304,14 @@ header a {
   margin-bottom: 8px;
 }
 
+.feature-icon {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
 /* Team information */
 
 .team-information {
@@ -315,6 +332,7 @@ header a {
   border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14);
 }
 
 .information-specialist-conteiner {
@@ -329,6 +347,13 @@ header a {
 
 .information-profession {
   text-align: center;
+}
+.traling-icons {
+  display: flex;
+  align-content: space-between;
+  gap: 24px;
+  width: 232px;
+  margin: 0 auto;
 }
 
 /* Our Portfolio */
@@ -366,6 +391,13 @@ header a {
 .portfolio-list:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+.portfolio-list:hover,
+.portfolio-list:focus {
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14);
+  transition-property: (0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier;
+  transition-delay: 250ms;
+}
 
 /* Footer  */
 
@@ -381,4 +413,28 @@ header a {
 
 .marketing-message {
   max-width: 264px;
+}
+.container-footer {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-logo {
+  display: block;
+  margin-right: 120px;
+}
+.social {
+  display: block;
+}
+.social-item {
+  margin-bottom: 16px;
+  color: #f4f4fd;
+}
+.traling-icons-footer {
+  display: flex;
+  align-content: space-between;
+  gap: 16px;
+  max-width: 208px;
+  margin: 0 auto;
 }
