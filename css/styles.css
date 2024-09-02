@@ -287,6 +287,8 @@ header a {
 /* Main */
 
 .solutions {
+  max-width: 1440px;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -297,6 +299,8 @@ header a {
   height: 56px;
   border-radius: 4px;
   border: none;
+  background-size: cover;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Description of goals */
