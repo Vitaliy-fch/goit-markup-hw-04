@@ -471,12 +471,16 @@ header a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list:hover .info-page {
+.portfolio-list:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition-property: (0.4, 0, 0.2, 1);
-  transition-timing-function: cubic-bezier;
-  transition-delay: 250ms;
+}
+
+.portfolio-list:hover .info-page {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-property: transform;
+  transition-delay: 0ms;
   transform: translateY(0%);
 }
 
