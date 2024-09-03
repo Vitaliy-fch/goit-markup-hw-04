@@ -526,7 +526,6 @@ header a {
   gap: 16px;
   max-width: 208px;
   margin: 0 auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .traling-icons-list {
@@ -542,6 +541,7 @@ header a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .message-icon:hover,
